@@ -1,0 +1,22 @@
+#!/bin/bash
+
+lang="$1"
+
+usage() {
+    printf "$1\n"
+    printf "Usage: \n prog lang\n"
+    exit 1
+}
+
+
+if [[ -z "$lang" ]]; then
+    usage "lang param is required"
+fi
+
+curl -Lfs https://raw.githubusercontent.com/akgun/gitignore/master/$lang.gitignore > .gitignore
+
+if [[ 0 -eq $? ]]; then
+    exit 0
+fi
+
+printf "Invalid lang: $lang\n"
