@@ -1,0 +1,34 @@
+*.class
+bin/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Backup files
+*~
+
+# intellij
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# eclipse
+.classpath
+.project
+.settings/
+
+# maven
+target/
+
+# gradle
+build/
+.gradle/
+
+# virtual machine crash logs
+hs_err_pid*
+
+# maven shade plugin
+dependency-reduced-pom.xml
