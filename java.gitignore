@@ -32,3 +32,8 @@ hs_err_pid*
 
 # maven shade plugin
 dependency-reduced-pom.xml
+
+# logs
+log/
+logs/
+*.log
