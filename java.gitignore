@@ -37,3 +37,6 @@ dependency-reduced-pom.xml
 log/
 logs/
 *.log
+
+# spring
+.springBeans
