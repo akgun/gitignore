@@ -1,0 +1,18 @@
+#!/bin/bash
+
+git config --global core.editor vim
+
+git config --global alias.fe "fetch -p"
+git config --global alias.br "branch -avv"
+git config --global alias.chm "checkout master"
+git config --global alias.st "status"
+git config --global alias.coa "commit --amend --reset-author"
+git config --global alias.a "add -A"
+git config --global alias.d "diff"
+git config --global alias.dc "diff --cached"
+git config --global alias.lo "log --oneline --decorate --graph"
+git config --global alias.loa "log --oneline --decorate --graph --all"
+git config --global alias.lor "log --pretty=format:\"%s%n%ae committed (%ad)%n%h%n\""
+git config --global alias.ch "checkout"
+git config --global alias.co "commit"
+
